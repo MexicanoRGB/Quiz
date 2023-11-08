@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightblue;
+}
+button,input[type=button]{
+    border: 0;
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;
+    color: white;
+    margin: 10px;
+}
+button:hover, input[type=button]:hover{
+    cursor: pointer;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+    padding: 50px;
+    background-color: white;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+footer{
+    margin-top: 30px;
+    text-align: right;
+    width: 550px;
+}
+input[type=button]:focus{
+    background-color: red;
+}
+#correto:focus{
+    background-color: green;
+}
